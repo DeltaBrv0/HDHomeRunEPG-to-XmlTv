@@ -35,7 +35,7 @@ spec:
           mountPath: /data
       env:
         HDHOMERUN_HOST:
-          value: "10.0.1.2"
+          value: "192.168.50.9"
         HDHOMERUN_CACHE_DB_PATH:
           value: "/data/epg_cache.db"
     service:
