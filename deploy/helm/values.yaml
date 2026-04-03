@@ -23,7 +23,7 @@ deployment:
 
   env:
     HDHOMERUN_HOST:
-      value: "10.0.1.2" # Change this
+      value: "192.168.50.9" # Change this
     HDHOMERUN_CACHE_DB_PATH:
       value: "/data/epg_cache.db"
     HDHOMERUN_CACHE_ENABLED:
