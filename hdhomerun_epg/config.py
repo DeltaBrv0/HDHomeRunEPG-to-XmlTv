@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    host: str = "hdhomerun.local"
+    host: str = "192.168.50.9"
     epg_days: int = 4
     epg_hours: int = 2
     output_filename: str = "epg.xml"
