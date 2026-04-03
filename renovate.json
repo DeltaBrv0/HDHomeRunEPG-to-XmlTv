@@ -34,6 +34,6 @@
             "groupName": "all python updates"
         }
     ],
-    "timezone": "Europe/Rome",
+    "timezone": "America/Chicago",
     "prConcurrentLimit": 10
 }
