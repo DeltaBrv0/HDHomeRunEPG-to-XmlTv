@@ -1,0 +1,11 @@
+argparse
+pytz
+requests
+tzlocal
+pydantic-settings
+fastapi
+uvicorn
+pytest
+httpx
+jinja2
+pre-commit
