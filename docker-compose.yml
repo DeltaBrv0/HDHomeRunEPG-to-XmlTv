@@ -6,7 +6,8 @@ services:
     container_name: hdhomerun-epg
     ports:
       - "8000:8000"
-    environment:     - HDHOMERUN_HOST=192.168.50.9  
+    environment:    
+      - HDHOMERUN_HOST=192.168.50.9  
       - HDHOMERUN_EPG_DAYS=7
       - HDHOMERUN_EPG_HOURS=3
       - HDHOMERUN_DEBUG_MODE=on
